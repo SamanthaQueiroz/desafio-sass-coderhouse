@@ -1,0 +1,179 @@
+@use 'variables'
+	
+* 
+	font-family: "Montserrat", sans-serif 
+	padding: 0 
+	margin: 0 
+	box-sizing: border-box 
+
+
+body 
+	height: 100vh 
+	width: 100vw 
+
+
+header 
+	display: flex 
+	align-items: center 
+	justify-content: center 
+	flex-wrap: wrap 
+
+
+nav 
+	display: flex 
+	justify-content: space-around 
+	width: 100% 
+	background-color: variables.$bg-color
+	margin-top: 5% 
+
+
+.header-logo 
+	height: 200px 
+	width: 200px 
+	border-radius: 40px 
+	margin-top: 5% 
+
+
+.header-menu 
+	font-weight: variables.$font-width 
+	font-size: 35px 
+	line-height: 50px 
+	color: #ffffff 
+	margin: 20px 0 20px 
+	cursor: pointer 
+
+a 
+	&:hover 
+		color: #000000 
+        
+.titulo 
+	font-weight: variables.$font-width 
+	font-size: 100px 
+	line-height: 50px 
+	text-align: center 
+	margin: 24% auto 9% 
+	color: variables.$primary-color
+
+	
+.container 
+	display: grid 
+	grid-template-columns: 2fr 2fr 
+	grid-template-rows: 15% 85% 
+	background-color: variables.$container-color  
+	height: 800px 
+	width: 100% 
+	
+.imagem-suco 
+	grid-column-start: 2 
+	grid-row-end: 3 
+	height: 500px 
+	width: 490px 
+	border-radius: 30px 
+	margin-left: 15% 
+	margin-top: 3% 
+	 
+.frase-suco 
+	grid-column-start: 1 
+	grid-row-end: 2 
+	font-weight: variables.$font-width 
+	font-size: 50px 
+	line-height: 50px 
+	color: #107812 
+	margin-top: 5% 
+	margin-left: 10% 
+
+	
+.lista-sucos 
+	grid-column-start: 1 
+	grid-row-end: 3 
+
+
+.sucos 
+	font-weight: variables.$font-width 
+	font-size: 36px 
+	line-height: 50px 
+	color: #d81150 
+	margin-left: 10% 
+	padding-top: 3% 
+	list-style: none 
+	
+	
+.button-sucos 
+	font-weight: variables.$font-width
+	font-size: 13px 
+	height: 30px 
+	width: 75px 
+	background: #f8d35d 
+	border: 4px solid #d18112 
+	border-radius: 10px 
+	margin-left: 10% 
+	cursor: pointer 
+
+	
+.container-2 
+	display: grid 
+	grid-template-columns: 2fr 2fr 
+	grid-template-rows: 15% 85% 
+	background-color: variables.$container-color 
+	height: 800px 
+	width: 100% 
+	margin-top: 5% 
+	
+.imagem-refri 
+	grid-column-start: 2 
+	grid-row-end: 3 
+	height: 500px 
+	width: 490px 
+	border-radius: 30px 
+	margin-left: 15% 
+	margin-top: 3% 
+
+	
+.bebida-refri 
+	grid-column-start: 1 
+	grid-row-end: 2 
+	font-weight: variables.$font-width 
+	font-size: 50px 
+	line-height: 50px 
+	color: #262726 
+	margin-top: 5% 
+	margin-left: 10% 
+
+	
+.lista-refri 
+	grid-column-start: 1 
+	grid-row-end: 3 
+
+
+.refri 
+	display: block 
+	font-weight: variables.$font-width
+	font-size: 36px 
+	line-height: 50px 
+	color: #131c64 
+	margin-left: 10% 
+	padding-top: 3% 
+	
+	
+.button-refri 
+	font-weight: variables.$font-width
+	font-size: 13px 
+	height: 30px 
+	width: 75px 
+	background: #f8d35d 
+	border: 4px solid #d18112 
+	border-radius: 10px 
+	margin-left: 10% 
+	cursor: pointer 
+
+	
+.rodape 
+	background: variables.$bg-color
+	color: rgb(0, 0, 0) 
+	font-weight: variables.$font-width 
+	font-size: 35px 
+	line-height: 50px 
+	text-align: center 
+	margin-top: 90px 
+	margin-bottom: 80px 
+	
